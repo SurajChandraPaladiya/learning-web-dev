@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #fff;
+}
+
+html, 
+body{
+    width: 100%;
+    height: 100%;
+}
+
+#main{
+    width: 100%;
+    height: 100%;
+    background-color: #111;
+    position: relative;
+}
+
+.box{
+    width: 100%;
+    height: 150px;
+    border-bottom: 2px solid #fff;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    position: relative;
+}
+
+.box h1{
+ font-size: 5vw;
+}
+.box img{
+    width: 12vw;
+    height: 100%;
+    border-radius: 50%;
+    position: absolute;
+    opacity: 0;
+    object-fit: cover;
+    object-position: center;
+    transition: all linear 0.3s;
+}
