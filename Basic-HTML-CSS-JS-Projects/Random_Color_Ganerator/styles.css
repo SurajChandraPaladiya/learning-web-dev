@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+#container{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.btnbox{
+    padding: 1rem;
+}
+
+.btnbox button{
+    padding: 1rem 3rem;
+    margin-right: 1rem;
+    font-size: 1.4rem;
+    background-color: #37e137;
+    border: none;
+    cursor: pointer;
+    border-radius: .5rem;
+}
+
+.btnbox button:hover{
+    box-shadow: 0 0 1rem #444;
+    transform: scale(1.1);
+    transition: all .3s ease-in-out;
+}
